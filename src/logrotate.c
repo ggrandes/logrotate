@@ -14,7 +14,7 @@
  *
  * 2010.09.06, v1.0, Guillermo Grandes
  *
- * Compile: gcc -Wall -O2 loggrotate.c -o loggrotate
+ * Compile: gcc -Wall -O2 logrotate.c -o logrotate
  */
 #define _LARGEFILE_SOURCE
 #define _FILE_OFFSET_BITS 64
