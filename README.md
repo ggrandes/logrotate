@@ -10,11 +10,11 @@ Read from stdin and output lines with timestamp in an output file (pathname), ro
 
 ## Compile (handmade)
 
-    gcc -Wall -O2 loggrotate.c -o loggrotate
+    gcc -Wall -O2 logrotate.c -o logrotate
 
 ## Running
 
-    ./process-to-log | ./loggrotate <pathname> <size-limit-bytes>
+    ./process-to-log | ./logrotate <pathname> <size-limit-bytes>
 
 ## Example output file:
 
